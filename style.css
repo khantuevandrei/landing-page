@@ -1,0 +1,35 @@
+header, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+header {
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    font-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer {
+    justify-content: center;
+}

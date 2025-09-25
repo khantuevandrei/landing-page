@@ -76,3 +76,37 @@ button {
     padding: 5px 10px;
     font-size: 18px;
 }
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.two-top {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.two-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card div {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.card p {
+    max-width: 200px;
+    text-align: center;
+    font-size: 18px;
+}

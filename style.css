@@ -1,10 +1,14 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
 header, footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px;
+    padding: 20px 200px;
     display: flex;
     align-items: center;
-    font-family: "Roboto";
 }
 
 header {
@@ -32,4 +36,43 @@ a {
 
 footer {
     justify-content: center;
+}
+
+.one, .four {
+    padding: 100px 200px;
+}
+
+.one {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.one-top {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.one-middle {
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 500px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
 }

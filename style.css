@@ -110,3 +110,32 @@ button {
     text-align: center;
     font-size: 18px;
 }
+
+.three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.three-contents {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.three-top {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+.three-bottom {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    align-self: flex-end;
+}
